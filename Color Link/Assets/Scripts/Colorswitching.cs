@@ -23,12 +23,12 @@ public class Colorswitching : MonoBehaviour
         if (ischanged == false)
         {
             imagecolor.color = color1;
-            ischanged= true;
+            //ischanged= true;
         }
         else if(ischanged== true)
         {
             imagecolor.color = color2;
-            ischanged= false;
+            //ischanged= false;
         }
         
     }
